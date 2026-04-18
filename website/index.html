@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 新闻日报 · 2026-04-18</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: rgba(18, 24, 45, 0.82);
+      --panel2: rgba(255,255,255,0.06);
+      --text: #eef2ff;
+      --muted: #b8c0e0;
+      --accent: #7c9cff;
+      --accent2: #55d6be;
+      --line: rgba(255,255,255,0.12);
+      --shadow: 0 20px 60px rgba(0,0,0,.35);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top right, rgba(124,156,255,.25), transparent 28%),
+        radial-gradient(circle at left 20%, rgba(85,214,190,.18), transparent 25%),
+        linear-gradient(180deg, #0a0f1f, #0b1020 40%, #0e1326 100%);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    .hero {
+      background: linear-gradient(135deg, rgba(124,156,255,.17), rgba(85,214,190,.12));
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(30px, 5vw, 52px);
+      line-height: 1.08;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 15px;
+      margin-bottom: 18px;
+    }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 16px 0 6px;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--panel2);
+      border: 1px solid var(--line);
+      color: #dbe2ff;
+      font-size: 13px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 18px;
+      margin-top: 22px;
+    }
+    .card {
+      grid-column: span 12;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+    @media (min-width: 900px) {
+      .card.half { grid-column: span 6; }
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+    h3 {
+      margin: 0 0 6px;
+      font-size: 17px;
+    }
+    p, li { color: var(--muted); }
+    ul { margin: 12px 0 0; padding-left: 18px; }
+    .brief {
+      display: grid;
+      gap: 14px;
+      margin-top: 16px;
+    }
+    .brief-item {
+      padding: 16px;
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .meta {
+      font-size: 12px;
+      color: #9aa6d6;
+      margin: 6px 0 10px;
+    }
+    a {
+      color: #b8cbff;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .news-list {
+      display: grid;
+      gap: 12px;
+    }
+    .news-item {
+      padding: 14px 16px;
+      border-radius: 16px;
+      background: rgba(255,255,255,.035);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .news-item strong { color: #eef2ff; }
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #97a2cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="sub">AI 新闻日报 · 2026-04-18 · 自动整理版</div>
+      <h1>今天的 AI 新闻，已整理成网页</h1>
+      <p class="sub">覆盖过去 24 小时内的中英文 AI 相关新闻，按“政策监管、产业落地、基础设施、社会影响”四条主线做了简要梳理。适合快速浏览，也可直接点进原始报道。</p>
+      <div class="chips">
+        <div class="chip">🕒 生成时间：2026-04-18 17:04 GMT+8</div>
+        <div class="chip">🌐 来源：Google News RSS 聚合</div>
+        <div class="chip">🧭 范围：全球 + 中文热点</div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card half">
+        <div class="section-title">
+          <h2>今日重点</h2>
+        </div>
+        <div class="brief">
+          <div class="brief-item">
+            <h3>1. AI 安全与监管继续升温</h3>
+            <p>Anthropic CEO 因新模型的安全与黑客风险问题访问白宫，说明前沿模型的风险治理已经进一步进入政策高层讨论区。</p>
+          </div>
+          <div class="brief-item">
+            <h3>2. 中国本地化落地明显加速</h3>
+            <p>教育、制造、就业服务、调解仲裁、企业场景发布同时活跃，今天中文区新闻的主线不是“新模型”，而是“AI 怎么真正落地”。</p>
+          </div>
+          <div class="brief-item">
+            <h3>3. 英伟达继续往“AI + 通信基础设施”延伸</h3>
+            <p>从算力芯片走向 6G 与通信网络生态，说明 AI 基础设施竞争正在扩大到更底层的网络层。</p>
+          </div>
+          <div class="brief-item">
+            <h3>4. 社会与内容可信度问题仍在发酵</h3>
+            <p>假头像、内容标注、AI 对信贷和网络安全的冲击，依然是今天全球新闻里的高频主题。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card half">
+        <div class="section-title">
+          <h2>快速结论</h2>
+        </div>
+        <ul>
+          <li>海外更关注前沿模型风险、社会治理、行业估值与需求泡沫。</li>
+          <li>中文区更关注 AI 进入教育、制造、地方产业与公共服务。</li>
+          <li>今天最值得跟踪的方向，是“从模型能力竞争，转向基础设施与制度建设竞争”。</li>
+          <li>如果你是创业者，今天的信息密度最高的信号不在模型榜单，而在垂直场景的部署速度。</li>
+        </ul>
+      </section>
+
+      <section class="card half">
+        <div class="section-title">
+          <h2>全球热点</h2>
+          <div class="sub">精选 8 条</div>
+        </div>
+        <div class="news-list">
+          <div class="news-item"><strong>Anthropic CEO visits White House amid hacking fears over new AI model</strong><div class="meta">The Washington Post · 13:55 GMT+8</div><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZk9iMkZSZEx1YWxvRXFzRm9vYWV4RWRaYlJFWjBYSFF2MHhITy10a0ZfbDNrTnptZDY4UTR6UmJZT2NSanpFSGZsMTJKRUdaRmZyOTVrTTF0Z2lKRXItVXpMNHlaak11aVlZbklIcVkwcWppdWs1T0lyakwxU3VTOFU1b1huWXd1?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>White House chief of staff to meet with Anthropic CEO over its new Mythos AI model</strong><div class="meta">PBS · 04:06 GMT+8</div><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPSGRuX3owbHpyV3JvNE1QeFdCSkt2Q21xSy1DV0RfZG81cUtLSElwd0JrWmpScHVlUmRZemQ2RV9PeXRPZVdYSXhvZFFFdkNpaG9rdWVuNFdNY25HOVRHUTZhUjlza1ZvcG1FMXlYRlVpQURUeHhtS0hjTS1aOW9RUloxM0FyOVZxWld4ZnlnQkF1RkJfczRQTlFBNHJaazRzQ19HNE9USmVjcWJnRDZsZXJpSjlSZ192MjZ2eNIBwgFBVV95cUxOODVSR24wQnY5dG5sbnBoU3hkdWVSemRmOUpxd041SmNRT2JsYVVOalM1LThiaGtqSDcxREMxTFdWbm5SZWtEdEMweGMzalc5TWRzRkt6cW1Db25Rd3ZGazBxaWVXV3lkbWZGT3locU04alJoRVktSnUyRkQwSXhteDU2bGJaWjBlTUtQMmV1MnduUnUtR1JvdmVOdE9wV2o4S0pfY3RHNEhTYXFwcjFMbDRkMzQyTlhiLW9HQ09mWlU1UQ?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>Hundreds of Fake Pro-Trump Avatars Emerge on Social Media</strong><div class="meta">The New York Times · 12:42 GMT+8</div><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOTkxPb1JOMUYwSGVOenVSZlEza3NtNnpMT29LSllhLWZsaGNHcjE2VnI5bFVSWHphWlBybUY0RVlLdkFkUnZCV3M2S2RNVVlfd1JXVGNRd1FSVlZrS3NOUW1oR2VHWmNMd0pxdnVqWGNhOEJrMUgwOThHeHBwRC1PUHRqR2V5am1WX1BMMW8yaUhDVm1NTVJDVy1IZjAxUQ?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>Perspective: AI demand is inflated, and only Anthropic is being realistic</strong><div class="meta">CNBC · 03:10 GMT+8</div><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE9mUkRKT2NJeHhYczNLdXEwREt1WmwzS0pIbWFBRmJnMVc3d012ZG5Jbll5ZjJ6c3VzOHBhN0VIcmJoLXFCb01oVXpjUjZiYkRLcFhEd1VnX3JEWDk4ZUZtejhyQl9nTVRQNjh1VHZndkhkQlk2UTdJcjVR0gF_QVVfeXFMTS01QnFrOXNORWhvZm9NZHl1WGpSeDNlZEo1TE8yWjRZS3FnODFibEduU1QwNFR0b0Z2VDRvZ2JSbkFVZFFmZXBfdm1pcU9UemZxOEVVTFA3Tll3TDQwX0RfWFI0YnFhdGRURDZkZWVwSVlTZVF6dmU3eEg0RS1VSQ?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>Time for government, business leaders to figure out AI cybersecurity regulation</strong><div class="meta">Harvard Gazette · 03:56 GMT+8</div><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQSDNzZGtKZTZyWjFzZW9BM1VBd3A1dWtPRF9HdUtQdXlGMHBaQzI0S2hzeXVubmpCZlY5d0EtZlprV3NSSlNRLXpRdFlvWWtBaWlXdEY0M2FvUEktT3YxbUtNamtYblByZE1fNkQxZWJSY3ZSR21EOVg3MzF2WVgwSFBSZDlwbXhJOUpCMjlGSmVpckVNUWNZbVFYY1d6cXpFeUh3Y2xQRWFWZW1MV19UT2VVRGs5ejI1dkdGWUkyS1czQWdO?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>2026 AI in Professional Services Report</strong><div class="meta">Thomson Reuters · 06:39 GMT+8</div><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM0tJSDhGeUVfZlh4emNkQ28wUVM1SkxONkNuY1c5YXB2YnNhT19iQzBJZ2Y0RFBxNk9WckE2Uy1hTzRjTFU0MklGeXcxNm5wMzF4cEJsQzFnT2dWbTRBX2RmVEx2OG52VXJ3LVU3SkNIRlVQc1ZnQmM4eWZXS3BORm5TR0VtOUdy?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>I moved from Texas to Spain and used AI to code a Facebook Marketplace alternative to sell my furniture</strong><div class="meta">Business Insider · 17:00 GMT+8</div><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOOUpKajFLbnBNaThYOGZrSmY3cm1HYVNzcEw2c0hPZF9fVkNvbUkxT0xYMVktREgyaG9MMVI4Mk45R01wdGFaenZ5YURDMnliOG13ZnBPenk2em90MEhLVVcyTER4RW9CZlh5bEp1N0VCaTZNUkRRTUpEdEtvSUd3ejJOcHVvcmRYYUNZbjRIWEd4cjVsTHZ5eW5Bck9VR3ZocFE4bm5sdTB1R2ZM?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>Super-Agers Are Using AI Such As ChatGPT To Keep Their Minds As Sharp As A Tack</strong><div class="meta">Forbes · 15:15 GMT+8</div><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxQY0gxd1dkTkRGSFRwWi1iTFJfT2NMcW1wbDN1d1VXRFVyaVVlS0ZJcERGQ1Z2LVluUHFyYllqeEVKZjBDZjF3bWFqcV8xNXVGeUc5d2M5Z3BFdFRLdWtESG1LSGJ0ZkxiZHdsTnpCcTZoT2lkUkgxdTJaMVBlR2Rqb1FkWi1KTU5kZUtxS05FeVhsUXIxVWsxYVQ4MnNSak5JblBzYmV6bHByMlhqWm9kQXBBSFpVanlzeEtEeXVvOGlKeFBiS0RGb252VQ?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+        </div>
+      </section>
+
+      <section class="card half">
+        <div class="section-title">
+          <h2>中文热点</h2>
+          <div class="sub">精选 8 条</div>
+        </div>
+        <div class="news-list">
+          <div class="news-item"><strong>广州黄埔启动“人工智能+教育”聚变行动计划</strong><div class="meta">21财经 · 12:00 GMT+8</div><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOS053TjVLOUk3VHNnTTJQSDY1RThlV0xVbTktS0NnMFlnaFpCTmY2NTY0Z3diZkUwbWJDMmRXeWlzdmlqQTlodkNMOXlaRE5SRjltNE1HR3lrQnQxc0FoT3Z1RlV1MkFxWFg1WGRJbm9XUjJaU243MWh4SGJyeWRVYWg5MGtfZ2hrZmdHdTBGbw?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>黄仁勋警告：淘汰你的不是 AI，而是先用上 AI 的人</strong><div class="meta">新浪财经 · 14:50 GMT+8</div><a href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZ01oeTFDUmp2TERPRGJKYVUyNVF6dGk1U19pd3ZhblZKNnA5dm9EWl8xXzJnUFBEMEtERm5UUG02U2dmMEVyeVpWSDExUnZHWjFSYmhYTEJIdWZXVmFHejktQWt5ajRTNS1KTmVibXlXYWhfSktxWWs2cVF5MWFPWDh0cjdENVhaNURpUVUtNTdGZzVwdGVmYkNmREFJTWtPRlk4NnF6N0dXemg4QWNrSnUxaDV5Y05UWFpuTDVqNW8tX2FXdkdsd2VxTXF0eDNENVk3bl81cUZ6ZlZKeFJwNUdydEhoOE55dmU4dXBISHhYN2xDRjNkVw?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>AI赋能制造，光谷探路“智造”新未来</strong><div class="meta">湖北日报传媒集团 · 11:26 GMT+8</div><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QaVUzamoybnluRVYxNFduMVM1Z0tobldjWHpmMXY3QklWMmVGN0ppM1NvMUNhQWtXZ1poTEh1THhHQk9SZW81ZF92dnNNN293cjNHMTBRWWY?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>86位院士、千位专家，今天武汉这场 AI 盛会“众星云集”</strong><div class="meta">wuhan.gov.cn · 11:19 GMT+8</div><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE51bVJaS1h4aDV3ME1pRGxJU1hmNWg2T2tUVlNHN1dZeXVPUFJDV1hRVTc4YnhON2hTNkxEQUs0U2c2a3M0d213aml5aVNuRno5QzNDdG5UWlFvbkFic2IyRDFmRFNPdG11SUxNSGRwdko?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>英伟达发布通信网络基建联盟倡议，探索 6G 与人工智能深度融合</strong><div class="meta">财联社 · 05:36 GMT+8</div><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nNkNnWFlmdkUzeGhzMVVpdWpQQl9xUzRibGtPTTlaTC02aHZlOHJ2QVVISnQ4YjRRVU9VQzZHNDJNVkJJaXRfSQ?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>透过“龙小仲”看“人工智能+调解仲裁”的龙江实践</strong><div class="meta">央广网 · 08:45 GMT+8</div><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TRUVZc1lfNGJBMFltR1o4QTlxeDlJR3A1WFJVR1RLXzBoWEJsVWdPZVZaVVZSZk85TU9fNFNaeWZ2aC13akV5NWV5d0owNUVuSXRDRlByZTlRcFhWY0tUZmxJckpDXzM2?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>“十五五”新开局，一线看就业：AI创客把工位搬进良渚</strong><div class="meta">新华网 · 15:30 GMT+8</div><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE51LTVOU1daMlZScEh3NGl4dHo0enIxd0FUSEp6RGo2bGtMcTlKeURpbk5iejhTX012blVxQTY2NFFjdmlCZEVKSGpMQl9yc2JVdlBPdnNjLXRUb0NzcUtBRjlvR0lHZlNpYW9BU0Y5OHRZSTBpNlJJ?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+          <div class="news-item"><strong>江苏省属企业集中发布 67 个高价值人工智能应用场景</strong><div class="meta">新华网 · 09:12 GMT+8</div><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE9XMzgwZXdzU08yV0Y2bnd0bl83TzFGNlFtb2tXdDFhYVJqTEE1X2ZUbEM2ODI5MV9QUTg1bFEwUXIwb1cyUHpUSzR5cUM5S1FtZTlHYWE2WkJCRHdJU1M1RHVLT0JwRXV3cFNjSHZ1ODUybjJsV3NBRmFvcHZGUQ?oc=5" target="_blank" rel="noreferrer">查看原文</a></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="section-title">
+          <h2>我帮你提炼的观察</h2>
+        </div>
+        <ul>
+          <li><strong>监管侧：</strong>海外关注点集中在前沿模型风险、黑客利用、内容真实性与标注治理。</li>
+          <li><strong>产业侧：</strong>国内今天的信号很清楚，教育和制造仍是地方 AI 落地最积极的两个方向。</li>
+          <li><strong>基础设施侧：</strong>英伟达从芯片外溢到通信网络联盟，表明 AI 产业竞争进入“算力 + 网络 + 生态”的整合阶段。</li>
+          <li><strong>组织侧：</strong>从专业服务报告到地方企业场景发布，大家更关心“谁真正把 AI 用起来”，而不是“谁又发了一个模型”。</li>
+        </ul>
+        <div class="footer">说明：本页基于过去 24 小时 AI 关键词相关新闻自动筛选整理，不等同于完整全网榜单，更适合作为一页速览。</div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
