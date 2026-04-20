@@ -1,12 +1,25 @@
-# ?? AI ?????2026-04-20
-
-> ?????Juya AI Daily 2026-04-20 ????????
+# [2026-04-20](https://github.com/imjuya/juya-ai-daily/issues/65)
 
 ![](http://testtttt.oss-cn-guangzhou.aliyuncs.com/imagehub/20260420/20260420082446973720a913_cover_e7ec.png)
 
-## ????
+# AI 早报 2026-04-20
 
-### 1. 谷歌推出 Android 开发工具集，优化 Agent 工作流
+**视频版**：[哔哩哔哩](https://www.bilibili.com/video/BV1m8owBfEef) ｜ [YouTube](https://www.youtube.com/watch?v=9O2XgzzbuNE)
+
+## 概览
+### 开发生态
+- 谷歌推出 Android 开发工具集，优化 Agent 工作流 [↗](https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html) `#1`
+- browser-use 推出 Browser Harness 开源工具 [↗](https://github.com/browser-use/browser-harness) `#2`
+### 前瞻与传闻
+- 传闻称 DeepSeek 本周发布 V4 模型，总参数或达 1600B [↗](https://x.com/yifan_zhang_/status/2045694320993276133) `#3`
+- 传闻称 ChatGPT 上正在测试 GPT-5.5 Pro [↗](https://x.com/ericmitchellai/status/2045742449939951699) `#4`
+### 其他
+- Vercel 官方证实内部系统遭未授权访问，仅小部分客户受影响 [↗](https://vercel.com/kb/bulletin/vercel-april-2026-security-incident) `#5`
+- Cherry Studio 被曝无视设置仍上传遥测数据 [↗](https://github.com/CherryHQ/cherry-studio/pull/14390) `#6`
+
+---
+
+## [谷歌推出 Android 开发工具集，优化 Agent 工作流](https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html) `#1`
 > **Google** 发布了一套全新的 **Android** 开发工具集，包含 `Android CLI`、`Android skills` 和 `Android Knowledge Base` 三大组件。
 >
 > 该工具集旨在帮助开发者优化 `Agent` 工作流并提升开发效率。
@@ -24,10 +37,9 @@
 相关链接：
 - [https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html](https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html)
 
-[???? ?](https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html)
-
 ---
-### 2. browser-use 推出 Browser Harness 开源工具
+
+## [browser-use 推出 Browser Harness 开源工具](https://github.com/browser-use/browser-harness) `#2`
 > **browser-use**团队推出了名为**Browser Harness**的开源工具。
 >
 > 这款工具能让大语言模型自由执行各类浏览器任务，并能在运行中自动修补缺失代码。
@@ -45,10 +57,9 @@
 相关链接：
 - [https://github.com/browser-use/browser-harness](https://github.com/browser-use/browser-harness)
 
-[???? ?](https://github.com/browser-use/browser-harness)
-
 ---
-### 3. 传闻称 DeepSeek 本周发布 V4 模型，总参数或达 1600B
+
+## [传闻称 DeepSeek 本周发布 V4 模型，总参数或达 1600B](https://x.com/yifan_zhang_/status/2045694320993276133) `#3`
 > 据非官方消息透露，**DeepSeek** 预计将于**本周**发布参数规模达 **1.6T** 的 `DeepSeek V4`。
 >
 > 爆料指出该模型将采用 `Sparse MQA`、`Fused MoE Mega Kernel` 以及 `Hyper-Connections` 三项关键技术优化推理表现。
@@ -71,10 +82,9 @@
 - [https://x.com/yifan_zhang_/status/2045694320993276133](https://x.com/yifan_zhang_/status/2045694320993276133)
 - [https://x.com/sheriyuo/status/2045744980954960282](https://x.com/sheriyuo/status/2045744980954960282)
 
-[???? ?](https://x.com/yifan_zhang_/status/2045694320993276133)
-
 ---
-### 4. 传闻称 ChatGPT 上正在测试 GPT-5.5 Pro
+
+## [传闻称 ChatGPT 上正在测试 GPT-5.5 Pro](https://x.com/ericmitchellai/status/2045742449939951699) `#4`
 > 有用户发现，**OpenAI** 疑似正在 **ChatGPT** 中测试新模型 `GPT-5.5 Pro`。
 >
 > 用户在使用 `GPT-5.4 Pro` 时可能会触发该模型。
@@ -102,10 +112,9 @@
 - [https://x.com/whylifeis4/status/2045679291413799416](https://x.com/whylifeis4/status/2045679291413799416)
 - [https://x.com/petergostev/status/2045926630422409667](https://x.com/petergostev/status/2045926630422409667)
 
-[???? ?](https://x.com/ericmitchellai/status/2045742449939951699)
-
 ---
-### 5. Vercel 官方证实内部系统遭未授权访问，仅小部分客户受影响
+
+## [Vercel 官方证实内部系统遭未授权访问，仅小部分客户受影响](https://vercel.com/kb/bulletin/vercel-april-2026-security-incident) `#5`
 > **Vercel** 官方发布公告称其部分内部系统遭到未经授权访问，但目前各项服务保持正常运行。
 >
 > 此次事件仅波及少数客户，影响范围相对有限。
@@ -127,10 +136,9 @@
 相关链接：
 - [https://vercel.com/kb/bulletin/vercel-april-2026-security-incident](https://vercel.com/kb/bulletin/vercel-april-2026-security-incident)
 
-[???? ?](https://vercel.com/kb/bulletin/vercel-april-2026-security-incident)
-
 ---
-### 6. Cherry Studio 被曝无视设置仍上传遥测数据
+
+## [Cherry Studio 被曝无视设置仍上传遥测数据](https://github.com/CherryHQ/cherry-studio/pull/14390) `#6`
 > **Cherry Studio** 被曝在用户关闭相关设置后，依然发送应用版本和系统标识等遥测数据。
 >
 > 目前已有用户提交了修复代码。
@@ -151,13 +159,6 @@
 - [https://github.com/CherryHQ/cherry-studio/pull/14390](https://github.com/CherryHQ/cherry-studio/pull/14390)
 - [https://linux.do/t/topic/2005227](https://linux.do/t/topic/2005227)
 
-[???? ?](https://github.com/CherryHQ/cherry-studio/pull/14390)
-
 ---
 
-## ????
-- Juya AI Daily: https://github.com/imjuya/juya-ai-daily/issues/65
-- ????Bilibili?: https://www.bilibili.com/video/BV1m8owBfEef
-- ????YouTube?: https://www.youtube.com/watch?v=9O2XgzzbuNE
-
-> ???????????????????????????
+**提示**：内容由AI辅助创作，可能存在**幻觉**和**错误**。
